@@ -1,0 +1,20 @@
+#users{
+    background-color: #28a745;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+}
+
+#lgout{
+    background-color: #dc3545;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    
+}
+
+#head{
+    color: #28a745;
+}

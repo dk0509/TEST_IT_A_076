@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <h1>Login</h1>
+    <br>
+    <form onsubmit="return validateLogin()">
+        <input type="text" placeholder="Username" id="user" name="username" required>
+        <br><br>
+        <input type="password" id="pw" placeholder="Password" name="password" required>
+        <br><br>
+        <input type="submit" value="Login" id="lgn">
+    </form>
+
+    <script>
+        function validateLogin() {
+            const username = document.getElementById("user").value;
+            const password = document.getElementById("pw").value;
+
+            const validUsername = "admin";
+            const validPassword = "1234";
+
+
+            if (username === validUsername && password === validPassword) {
+       
+                window.location.href = "dashboard.html"; 
+                return false;
+            } else {
+                alert("Invalid username or password");
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>

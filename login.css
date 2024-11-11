@@ -1,0 +1,19 @@
+#pw{
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+#user{
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+#lgn{
+    background-color: #28a745;
+    padding: 8px;
+    border-radius: 3px;
+    border: 0;
+    color: white;
+}
